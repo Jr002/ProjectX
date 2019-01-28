@@ -32,4 +32,23 @@
 
     </style>
 
+    <style name="SplashScreenTitle">
+
+        <item name="android:textSize">
+            64sp
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+
+
+    <!-- strings.xml -->
+    <string name="project_x">
+
+PROJECT X
+</string>
+
 </resources>
