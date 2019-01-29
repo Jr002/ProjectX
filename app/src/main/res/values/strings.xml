@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">PROJECT X</string>
+    <string name="timer_Temp">60</string>
 </resources>

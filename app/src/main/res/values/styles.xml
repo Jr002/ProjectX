@@ -8,6 +8,7 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!-- -->
     <style name="project_x">
 
         <item name="android:textSize">
@@ -20,6 +21,7 @@
 
     </style>
 
+    <!-- -->
     <style name="buttonTextStyle">
 
         <item name="android:textSize">
@@ -32,6 +34,7 @@
 
     </style>
 
+    <!-- -->
     <style name="SplashScreenTitle">
 
         <item name="android:textSize">
@@ -44,11 +47,18 @@
 
     </style>
 
+    <!-- Design for the timer text-->
+    <style name="timer_">
 
-    <!-- strings.xml -->
-    <string name="project_x">
+        <item name="android:textSize">
+            144sp
+        </item>
 
-PROJECT X
-</string>
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+
 
 </resources>

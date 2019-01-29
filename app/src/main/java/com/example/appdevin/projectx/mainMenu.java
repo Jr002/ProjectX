@@ -1,5 +1,7 @@
 package com.example.appdevin.projectx;
 
+import android.content.Context;
+import android.content.Intent;
 import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -23,8 +25,10 @@ public class mainMenu extends AppCompatActivity {
         initFont();
 
 
+
     }
 
+    //Intizlizing fonts
     void initFont(){
         myFont= Typeface.createFromAsset(this.getAssets(),"fonts/Righteous-Regular.ttf");
         btnPlayGame.setTypeface(myFont);
@@ -35,6 +39,7 @@ public class mainMenu extends AppCompatActivity {
        txtTitle.setTypeface(myFont);
     }
 
+    //Initalizing
     void init(){
         btnPlayGame=findViewById(R.id.btnPlayGame);
         btnCredits=findViewById(R.id.btnCredits);
@@ -43,6 +48,14 @@ public class mainMenu extends AppCompatActivity {
 
         txtTitle=findViewById(R.id.nameTitle);
 
+    }
+
+    //Method to move to another activity
+
+    void IntentActivity(Class Activity){
+
+        Intent nextActivity = new Intent(this, Activity );
+        startActivity(nextActivity);
 
     }
 }
