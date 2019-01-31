@@ -3,7 +3,9 @@ package com.example.appdevin.projectx;
 import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.webkit.WebView;
+import android.widget.Button;
 import android.widget.TextView;
 
 import java.io.IOException;
@@ -12,6 +14,7 @@ import java.io.InputStream;
 public class splashScreen extends AppCompatActivity {
 
     TextView txtTitle;
+    Button btnPlayGame;
     Typeface myFont;
 
     @Override
@@ -24,6 +27,7 @@ public class splashScreen extends AppCompatActivity {
         //init Font
         initFont();
 
+
     }
 
     void initFont(){
@@ -34,5 +38,6 @@ public class splashScreen extends AppCompatActivity {
 
     void init(){
         txtTitle=findViewById(R.id.txtTitle);
+
     }
 }
